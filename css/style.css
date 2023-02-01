@@ -1,0 +1,264 @@
+/********** Template CSS **********/
+:root {
+  --primary: rgb(36, 36, 36);
+  --secondary: #ffd33c;
+  --light: #f3f3f3;
+  --dark: #212121;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-size: inherit;
+  margin-left: 0;
+}
+
+
+#button {
+    width: auto;
+    height: 45px;
+    font-weight: bold;
+    background-color: rgb(233 205 176);
+    margin-top: 23px;
+    border-radius: 15px;
+}
+#button:hover{
+    background-color: rgb(78, 212, 16);
+}
+
+body {
+  background-color: #000000;
+}
+
+i {
+  color: rgb(233 205 176);
+}
+#star {
+  color: rgb(225, 169, 81);
+}
+
+#img {
+  background-image: url(.././image/fy-bg-1.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* border-radius: 317px 80px; */
+  background-size: cover;
+  height: 400px;
+  margin-left: 20px;
+  border-radius: 107px 145px;
+}
+
+#fig-cap {
+    background-color: rgb(233 205 176);
+    margin-right: 230px;
+    margin-left: -69px;
+    border-radius: 42px 5px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#hair-loss {
+  background-color: rgb(36 36 36);
+}
+
+#card {
+  background-color: rgb(36 36 36);
+}
+
+#title {
+  color: rgb(233 205 176);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(233 205 176);;
+  font-family: 'Jost';
+font-style: normal;
+}
+
+#hair {
+  background-image: url(.././image/h-l-1.jpg);
+  background-repeat: no-repeat;
+  /* border-radius: 317px 80px; */
+  background-size: cover;
+  height: 260px;
+  width: 393px;
+  background-position: center;
+}
+
+#hair2 {
+  background-image: url(.././image/h-l-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 393px;
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 36px;
+}
+#hair3 {
+  background-image: url(.././image/h-l-3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 393px;
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 36px;
+}
+
+#card-p3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  width: 348px;
+  height: 117px;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  margin: 10px;
+  margin-left: 40px;
+}
+
+#office {
+  background-image: url(.././image/office_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 640px;
+}
+
+#video {
+  text-align: center;
+  padding: 215px;
+}
+
+#adv{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 116px;
+}
+
+#doc1{
+    background-image: url(.././image/d1.jfif);
+    width: 311px;
+    height: 216px;
+    margin-top: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 22px;
+
+}
+
+.card-body{
+    background-color: rgb(36 36 36);
+}
+.Footer-body{
+    background-color: rgb(36 36 36);
+}
+
+.position-relative:hover,.card-body:hover{
+    background-color: rgb(233 205 176);
+}
+#h4{
+color: #000000;
+}
+figcaption, li{
+    color: white;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 34px;
+}
+
+#step{
+    padding: 10px;
+    
+}
+
+#diff{
+    background-color: rgb(233 205 176);;
+}
+
+#dif{
+    height: 116px;
+    width: 216px;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 545px;
+    margin-top: 115px;
+}
+
+#doit{
+    border: 1px solid black;
+    border-radius: 40px;
+    position: absolute;
+    /* margin-right: 135px; */
+    margin-left: 475px;
+    margin-top: -34px;
+}
+
+#dif-fut{
+    background-image: url(.././image/rec.jpg);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 668px;
+}
+
+#after{
+    width: 316px;
+    margin-left: -24px;er;
+    background-size: cover;
+}
+
+#before{
+    width: 317px;
+    margin-left: -5px;
+}
+
+#couns{
+    background-image: url(.././image/couns.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 668px;
+}
+#measure{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 668px;
+}
+
+
+
+    
